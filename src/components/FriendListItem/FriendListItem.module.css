@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 360px;
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  border: 2px solid gray;
+  border-radius: 4px;
+  background-color: gainsboro;
+}
+
+.status {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  border-radius: 50%;
+  background-color: springgreen;
+}
+
+.avatar {
+  margin-right: 16px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: honeydew;
+}
+
+.name {
+  font-size: 26px;
+}

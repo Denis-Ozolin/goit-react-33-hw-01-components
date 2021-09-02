@@ -18,6 +18,10 @@
   background-color: springgreen;
 }
 
+.offlineStatus {
+  background-color: orangered;
+}
+
 .avatar {
   margin-right: 16px;
   padding: 20px;

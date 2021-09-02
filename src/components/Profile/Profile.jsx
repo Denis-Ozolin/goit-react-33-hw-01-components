@@ -1,13 +1,9 @@
 import PropTypes from 'prop-types';
 import css from 'components/Profile/Profile.module.css';
 
-export const Profile = ({
-  name,
-  tag,
-  location,
-  avatar = 'https://www.flaticon.com/svg/static/icons/svg/3784/3784184.svg',
-  stats,
-}) => {
+const defaultAvatar = 'https://www.flaticon.com/svg/static/icons/svg/3784/3784184.svg';
+
+export const Profile = ({ name, tag, location, avatar = defaultAvatar, stats }) => {
   return (
     <div className={css.profile}>
       <div className={css.description}>
